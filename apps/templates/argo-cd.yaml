@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: argo-cd
+  name: argo-cd-test
   namespace: default
   finalizers:
   - resources-finalizer.argocd.argoproj.io
